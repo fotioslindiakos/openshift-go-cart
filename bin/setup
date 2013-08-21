@@ -5,6 +5,7 @@ case "$1" in
     version="$2"
 esac
 
+sleep 480
 # Parse arguments
 source "${OPENSHIFT_GO_DIR}/lib/util"
 parse_args $@
